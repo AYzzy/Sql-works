@@ -1,0 +1,39 @@
+use my_db;
+
+INSERT INTO STUDENT VALUES (
+	1,'Femi', 20, 'male');
+INSERT INTO STUDENT VALUES (
+	2,'David', 24, 'male');
+INSERT INTO STUDENT VALUES (
+	3,'Dunni', '23', 'female');    
+
+ 
+ 
+ 
+INSERT INTO COURSE VALUES (
+	100,'Java', 'i_am', 15);
+INSERT INTO COURSE VALUES (
+	200,'Python', 'Asa', 7);
+INSERT INTO COURSE VALUES (
+	300,'data_base', 'Esther', 10);
+INSERT INTO COURSE VALUES (
+	400,'Spingboot', 'Femi', 18);    
+    
+INSERT INTO GRADE VALUES (
+	1, 1, 60);
+INSERT INTO GRADE VALUES (
+	1, 2, 70);    
+INSERT INTO GRADE VALUES (
+	1, 3, 77);
+INSERT INTO GRADE VALUES (
+	2, 1, 68);  
+INSERT INTO GRADE VALUES (
+	2, 3, 80);
+INSERT INTO GRADE VALUES (
+	3, 2, 67);  
+INSERT INTO GRADE VALUES (
+	3, 1, 89);
+INSERT INTO GRADE VALUES (
+	2, 2, 72);      
+ INSERT INTO GRADE VALUES (
+	3, 3, 86);   
